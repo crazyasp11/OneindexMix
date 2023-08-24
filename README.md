@@ -4,7 +4,7 @@
 - makusujp.github.io项目：https://github.com/makusujp/makusujp.github.io
 
 ### 更新内容
-1. 切换OneindexM项目中失效的Url重定向服务至https://makusujp.github.io中转，使项目可以顺利安装
+1. 切换OneindexM项目中失效的Url重定向服务至 https://makusujp.github.io 中转，使项目可以顺利安装
 2. 开放修改重定向地址，使已经支持域名+SSL的服务器也能安装
 
 
