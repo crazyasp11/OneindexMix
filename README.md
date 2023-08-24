@@ -1,4 +1,18 @@
 ## 简介
+本项目基于：
+- OneindexM项目地址：https://github.com/Mintimate/OneindexM
+- makusujp.github.io项目：https://github.com/makusujp/makusujp.github.io
+
+### 更新内容
+1. 切换OneindexM项目中失效的Url重定向服务至https://makusujp.github.io中转，使项目可以顺利安装
+2. 开放修改重定向地址，使已经支持域名+SSL的服务器也能安装
+
+
+
+<hr/>
+
+**以下是Mintimate/OneindexM/Readme.md内容**
+## 简介
 
 本项目是基于：
 
@@ -12,9 +26,6 @@
 教程视频：
 - [8分钟利用OneDrive搭建不限速的OneIndex分享网盘](https://www.bilibili.com/video/BV1ph41197aa)
 
-
-打赏
-- 爱发电：[Mintimate的电圈](https://www.afdian.net/@mintimate/plan)
 
 ![](https://cdn.jsdelivr.net/gh/Mintimate/OneindexM/demo/demo.png)
 
