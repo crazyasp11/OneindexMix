@@ -206,10 +206,10 @@ class AdminController{
         }
         if($_SERVER['HTTP_HOST'] == 'localhost'){
             $redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].get_absolute_path(dirname($_SERVER['PHP_SELF']));
-        }else{
-            // 非https,调用ju.tn中转
-            $redirect_uri = 'https://tool.mintimate.cn/oneindexM/';
-        }
+        }//else{
+            // 非https,调用自定义重定向uri中转
+            //$redirect_uri = 'https://makusujp.github.io';
+        //}
         
         $ru = "https://developer.microsoft.com/en-us/graph/quick-start?appID=_appId_&appName=_appName_&redirectUrl={$redirect_uri}&platform=option-php";
         $deepLink = "/quickstart/graphIO?publicClientSupport=false&appName=oneindex&redirectUrl={$redirect_uri}&allowImplicitFlow=false&ru=".urlencode($ru);
